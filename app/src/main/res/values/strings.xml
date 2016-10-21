@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExperimentThree</string>
+    <string name="more_info">更多资料</string>
+    <string name="edit_contacts">编辑联系人</string>
+    <string name="share_contacts">分享联系人</string>
+    <string name="add_to_black_list">加入黑名单</string>
+    <string name="delete_contacts">删除联系人</string>
+</resources>

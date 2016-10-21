@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 联系人列表的子项布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <!-- 左侧圆圈 -->
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/primary_white"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:background="@drawable/first_letter_bg"/>
+
+    <!-- 右侧联系人姓名 -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aron"
+        android:textColor="@color/primary_black"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
